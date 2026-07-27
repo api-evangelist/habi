@@ -1,7 +1,14 @@
 aid: habi
 name: Habi
-description: 'Habi is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: proptech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Habi is a Colombian real estate technology company (proptech) that operates as a
+  direct home buyer and seller — an iBuyer model where Habi itself purchases apartments in cash,
+  typically within 10 days, rather than acting as a traditional agency. It operates across Bogota,
+  Medellin, Cali, Barranquilla and 20+ Colombian cities and is expanding into Mexico. Products
+  include Habimetro (an online property valuation simulator), property listings and search, Habi
+  Credit (mortgage financing), Habi Inmobiliaria (assisted longer-term sales), and an allied-agent
+  partner network. The company reports 40,000+ families served, 4,000+ allied real estate agents,
+  and 550+ real estate experts. Backed by Homebrew. This profile was added to the API Evangelist
+  network and enriched from Habi''s public surface; the company publishes no public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/habi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,30 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://d1dp0u2gg0hzcd.cloudfront.net/favicon_CO.png
 tags:
 - Company
 - Proptech
+- Real Estate
+- iBuyer
+- Colombia
+- Mexico
+- Mortgage
+- Home Buying
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/habi-domain-security.yml
 - type: Website
   url: https://habi.co
+- type: Blog
+  url: https://habi.co/blog
+- type: HelpCenter
+  url: https://centro-ayuda.habi.co/hc/es-419
+- type: TermsOfService
+  url: https://habi.co/terminosycondiciones
+- type: PrivacyPolicy
+  url: https://6215805.hs-sites.com/aviso-de-privacidad
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
